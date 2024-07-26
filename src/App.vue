@@ -1,11 +1,13 @@
 <script>
 // importo il titolo dall'app apptitle
   import appTitle from './components/AppTitle.vue'
+  import AppImg from './components/AppImg.vue';
 
   // lo abilito all'utilizzo 
   export default{
     components:{
-      appTitle
+      appTitle,
+      AppImg
     }
   }
 </script>
@@ -15,10 +17,17 @@
   <appTitle />
  </header>
  <main>
-
+  <AppImg />
  </main>
 </template>
 
-<style scoped>
-
+<style>
+  header{
+    background-color: rgb(0, 0, 0);
+  }
+  main{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+  }
 </style>

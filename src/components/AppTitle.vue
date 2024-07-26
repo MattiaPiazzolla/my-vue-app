@@ -4,13 +4,12 @@ export default {
 }
 </script>
 <template>
-    <div>
-        <h1>La mia prima app con Vite!</h1>
-    </div>
+    <h1>La mia prima app con Vite!</h1>
 </template>
 <style>
     h1{
         text-align: center;
-        margin-top: 25px;
+        color: #fff;
+        padding: 20px;
     }
 </style>
